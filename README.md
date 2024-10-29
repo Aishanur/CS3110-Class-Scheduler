@@ -1,17 +1,19 @@
-# Class Scheduler Assistant
+# CS 3110 Final Project - Class Scheduler Assistant
 
 The **Class Scheduler Assistant** is a terminal-based application designed to help students in managing their academic roadmap. This tool enables students to explore and plan their major coursework. It provides key details and functionalities that assist in the process of scheduling classes.
 
 ## Features
 
 1. **Major Roadmap Guidance**
+
    - Provides a detailed roadmap for selected majors, including support for double majors.
    - Accommodates different course requirements for majors across various colleges.
 
 2. **GPA Calculation**
+
    - Calculates GPA based on user-provided course grades, giving students an updated overview of their academic performance.
 
-4. **User-Friendly Display**
+3. **User-Friendly Display**
    - Formats output for readability, and displays helpful information in the terminal or command line.
 
 ## Development Highlights
