@@ -64,17 +64,17 @@ let prnt_valid_courss () =
 let prnt_command () =
   ANSITerminal.print_string [ ANSITerminal.cyan ]
     "Please enter a command: list of available commands : ['quit', 'major 
-    some_major', 'doublemajor' 'some major' 'some major'] list of available 
+    <some major>', 'doublemajor <some major> <some major>] list of available 
     majors: ['cs', 'ece']. Please note that if you don't enter a valid 
     major/college, the program is going to ask you again. Thus, for the sake of 
     effiencency, check that the information you enter is valid."
 
 let back_courss_option () =
-  print_endline "Would you like to go back and rechoose. say 'no' or 'goback"
+  print_endline "Would you like to go back and rechoose? Say 'no' or 'goback'."
 
 let prnt_charactrs () =
   ANSITerminal.print_string [ ANSITerminal.black ]
-    {| Please Note that characters are case sensitive so should be 
+    {| Please Note that characters are case sensitive, so they should be 
 written as shown! |}
 
 let prnt_timing () =
@@ -88,7 +88,7 @@ let prnt_timing () =
 
 let empty_red () =
   ANSITerminal.print_string [ ANSITerminal.red ]
-    {| Error: Empty command. Try again with a valid command this time."|}
+    {| Error: Empty command. Try again with a valid command this time.|}
 
 let learn_msg () =
   print_endline
@@ -97,7 +97,7 @@ let learn_msg () =
 
 let empty_green () =
   ANSITerminal.print_string [ ANSITerminal.green ]
-    {| Error: Empty command. Try again with a valid command this time. |}
+    {| Error: Empty command. Try again with a valid command this time.|}
 
 let malformed_red () =
   ANSITerminal.print_string [ ANSITerminal.red ]
